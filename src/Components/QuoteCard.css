@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+                
+
+.quoteCard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'DS-Digital', sans-serif;
+    color: white;
+}
+.quoteCard__title{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.quoteCard__CardText{
+    background-color: rgba(240, 248, 255, 0.489);
+    border-radius: 9px;
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+}
+
+.quoteCard__phrase{
+    margin: 30px auto;
+    max-width: 400px;
+    display: block;
+}
+
+.quoteCard__btn{
+    border: 0;
+    margin-top: 30px;
+    font-size: 40px;
+    background-color: rgba(240, 248, 255, 0.779);
+    border-radius: 40%;
+    
+}
